@@ -1,0 +1,145 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 95%;
+    margin: auto;
+}
+.header-topo{
+    background-color: #205020;
+    height: 75px;
+    position: relative;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.titulo-header{
+    position: absolute;
+    top: 8.5px;
+    left: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.separador-header{
+    position: absolute;
+    top: -8px;
+    left: 230px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(0, 27, 0);
+}
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu ul{
+    padding: 12px 50px 12px 0px;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px 0px 0px;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(173, 173, 173);
+    transition: color .3s linear;
+}
+.menu a:hover{
+    color: white;
+}
+.imagem-header{
+    position: absolute;
+    top: 2.25px;
+    left: 20px;
+}
+.home-icone{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+.imagem-bg{
+    background-image: url(../imagens/bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: auto;
+    height: 500px;
+}
+.artigo-sobre{
+    background-color:#205020;
+    background-image: url(../imagens/bg-artigo.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 50px;
+    height: 400px;
+    width: 75%;
+    margin: auto;
+    padding: 0;
+    color: white;
+}
+.artigo-sobre h1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.artigo-sobre p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 0px 20px;
+}
+.conteudo-principal{
+    margin: 20px auto;
+    padding: 0px 100px;
+    overflow: auto;
+    width: 75%;
+}
+.conteudo-principal a{
+    text-decoration: none;
+    color: #ccc;
+    transition: color .5s linear;
+}
+.conteudo-principal a:hover{
+    color: black;
+}
+.conteudo{
+    width: 32%;
+    float: left;
+    text-align: center;;
+}
+.cont-2{
+    margin: 0 2%;
+}
+.titulo-conteudo{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.descricao-conteudo{
+    margin: 10px 25px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.rodape{
+    background-color: #205020;
+    border-radius: 50px;
+    margin: 20px auto;
+    height: 50px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-shadow: 3px 3px 2px black;
+    line-height: 50px;
+}
